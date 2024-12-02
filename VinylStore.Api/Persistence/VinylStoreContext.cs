@@ -7,6 +7,7 @@ namespace VinylStore.Api.Persistence
     {
         public DbSet<Album> Albums => Set<Album>();
         public DbSet<Track> Tracks => Set<Track>();
+        public DbSet<User> Users { get; set; }
 
         public VinylStoreContext(DbContextOptions<VinylStoreContext> options) : base(options) { }
 
@@ -16,6 +17,8 @@ namespace VinylStore.Api.Persistence
 
             modelBuilder.ApplyConfiguration(new AlbumConfig());
             modelBuilder.ApplyConfiguration(new TrackConfig());
+            modelBuilder.ApplyConfiguration(new UserConfig());
+
         }
     }
 }
