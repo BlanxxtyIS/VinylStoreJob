@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35514.174
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VinylStore.Client", "VinylStore.Client\VinylStore.Client.csproj", "{3A683508-6F66-4B9C-9D3B-9CA1C483336D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VinylStore.Shared", "VinylStore.Shared\VinylStore.Shared.csproj", "{BF06C734-721E-4AF3-9AB8-8E1F8B467AF3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VinylStore.Components", "VinylStore.Components\VinylStore.Components.csproj", "{1466F367-8256-4ABA-8418-DFFF49BA258F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VinylStore.Api", "VinylStore.Api\VinylStore.Api.csproj", "{0DBD899C-D4DA-45B0-824F-CE954EF0F007}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A683508-6F66-4B9C-9D3B-9CA1C483336D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A683508-6F66-4B9C-9D3B-9CA1C483336D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A683508-6F66-4B9C-9D3B-9CA1C483336D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A683508-6F66-4B9C-9D3B-9CA1C483336D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF06C734-721E-4AF3-9AB8-8E1F8B467AF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF06C734-721E-4AF3-9AB8-8E1F8B467AF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF06C734-721E-4AF3-9AB8-8E1F8B467AF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF06C734-721E-4AF3-9AB8-8E1F8B467AF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1466F367-8256-4ABA-8418-DFFF49BA258F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1466F367-8256-4ABA-8418-DFFF49BA258F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1466F367-8256-4ABA-8418-DFFF49BA258F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1466F367-8256-4ABA-8418-DFFF49BA258F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DBD899C-D4DA-45B0-824F-CE954EF0F007}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DBD899C-D4DA-45B0-824F-CE954EF0F007}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DBD899C-D4DA-45B0-824F-CE954EF0F007}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DBD899C-D4DA-45B0-824F-CE954EF0F007}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
